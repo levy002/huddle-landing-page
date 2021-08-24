@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    max-width: 100%;
 }
 body{
    margin:0;
@@ -7,6 +8,8 @@ body{
 }
  p{
     font-family: 'Poppins', 'sans-serif';
+    font-size:25px;
+
 }
 button:hover{
     opacity:0.4;
@@ -44,7 +47,6 @@ header{
 .section1 p{
     margin-inline-end: 320px;
     margin-inline-start: 320px;
-    font-size:25px;
     padding-bottom: 30px;
     font-family: 'Poppins','Sans Serif';
 }
@@ -68,7 +70,6 @@ header{
     
 }
 .section2 p{
-    font-size: 1.5em;
     margin-top: 0;
     color:grey;
     text-align: center;
@@ -102,14 +103,12 @@ header{
 }
 .growTopBackground{
      background-image: url(images/bg-section-top-desktop-1.svg);
-     background-size: auto;
      background-repeat: no-repeat;
      background-position:top left ;
      height: 165px;
 } 
 .growBottomBackground{
        background-image: url(images/bg-section-bottom-desktop-1.svg);
-       background-size: auto;
        background-repeat: no-repeat;
        padding-bottom: 70px;
 } 
@@ -125,7 +124,7 @@ header{
 #flowering{
     padding-inline-start: 70px;
     padding-inline-end: 70px;
-    font-size: 1.3em;
+    
 }
 .users{
     background-color: hsl(207, 100%, 98%); 
@@ -135,20 +134,17 @@ header{
     padding-inline-start: 70px;
 }
 #section3Paragraph{
-    font-size: 1.3em;
     padding-inline-end: 80px;
     padding-inline-start: 50px;
 }
 
 .userTopBackground{
     background-image: url(images/bg-section-top-desktop-2.svg);
-    background-size: auto;
     background-repeat: no-repeat;
     height: 156px;
 } 
 .userBottomBackground{
     background-image: url(images/bg-section-bottom-desktop-2.svg);
-    background-size: auto;
     background-repeat: no-repeat;
     padding-bottom: 100px;
 } 
@@ -281,6 +277,7 @@ i:hover{
     }
      p{
         font-family: 'Poppins', 'sans-serif';
+        font-size: 18px;
     }
     button:hover{
         opacity:0.4;
@@ -319,7 +316,6 @@ i:hover{
         font-size: 1.5em;
     }
     .section1 p{
-        font-size: 15px;
         margin:0;
         font-family: 'Poppins','Sans Serif';
     }
@@ -343,7 +339,6 @@ i:hover{
         
     }
     .section2 p{
-        font-size: 1em;
         margin-top: 0;
         margin-bottom: 100px;
         color:grey;
@@ -406,7 +401,6 @@ i:hover{
     #section3Paragraph{
         padding-inline-end: 0;
         padding-inline-start: 0;
-        font-size: 15px;
     }
 
     
