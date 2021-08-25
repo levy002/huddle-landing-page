@@ -1,7 +1,12 @@
-function emailValidation() { 
-    var checkemail=document.getElementById("email").value;
+const subButton = document.querySelector('.subs_button')
 
-    if (checkemail!="") { 
+subButton.addEventListener('click',emailValidation)
+
+function emailValidation(event) { 
+          event.preventDefault();
+    var checkEmail=document.getElementById("email").value;
+
+    if (checkEmail!="") { 
 
             var emailRegex = /\S+@\S+\.\S+/;
 
