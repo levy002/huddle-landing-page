@@ -1,3 +1,7 @@
+
+
+
+
 *{
     box-sizing: border-box;
     max-width: 100%;
@@ -6,16 +10,17 @@ body{
    margin:0;
    font-family:'Open Sans', 'sans-serif'
 }
- p{
-    font-family: 'Poppins', 'sans-serif';
+ * p{
+    font-family: 'Open Sans', 'sans-serif';
     font-size:25px;
-
-}
+ 
+} 
 button:hover{
     opacity:0.4;
 }
 body h1,h2,h3,h4{
-   font-family: 'Open Sans', 'sans-serif';
+   font-family: 'Poppins', 'sans-serif';
+   font-weight: 700;
 }
 header{
     padding:70px;
@@ -42,13 +47,14 @@ header{
 }
 .section1 h1{
     font-size: 3em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .section1 p{
     margin-inline-end: 320px;
     margin-inline-start: 320px;
     padding-bottom: 30px;
-    font-family: 'Poppins','Sans Serif';
+    font-family: 'Open Sans','Sans Serif';
+    font-weight: 400;
 }
 .section1 img{
     padding-top: 80px;
@@ -86,11 +92,17 @@ header{
 .section3 img{
     height: 400px;
 }
+.section3 p{
+    font-size: 20px;
+    font-family: 'Open Sans','Sans Serif';
+    font-weight: 400;
+} 
+
 #section3_{
     display:grid;
     grid-template-columns: auto auto;
     align-items: center;
-} 
+}  
 .growTogether{
    background-color: hsl(207, 100%, 98%); 
     display: flex;
@@ -99,7 +111,7 @@ header{
     padding-inline-end:70px;
 }
 #section_ h1{
-    font-size:1.8em;
+    font-size:2em;
 }
 .growTopBackground{
      background-image: url(images/bg-section-top-desktop-1.svg);
@@ -186,6 +198,8 @@ footer{
 }
 .footer_info1 p{
     margin-bottom: 40px;
+    font-family: 'Open Sans','Sans Serif';
+    font-weight: 400;
 } 
 .footer_info1 img{
     filter:  brightness(0) invert(1);
@@ -222,7 +236,7 @@ input{
     border-radius: 6px;
     border:1px solid lemonchiffon;
     outline: none;
-    background-color: lemonchiffon;
+    background-color: white;
 }
 footer button{
     padding:15px 35px;
@@ -275,8 +289,8 @@ i:hover{
        
 
     }
-     p{
-        font-family: 'Poppins', 'sans-serif';
+    * p{
+        font-family: 'Open Sans', 'sans-serif';
         font-size: 18px;
     }
     button:hover{
@@ -317,7 +331,7 @@ i:hover{
     }
     .section1 p{
         margin:0;
-        font-family: 'Poppins','Sans Serif';
+        font-family: 'Open Sans','Sans Serif';
     }
     .section1 img{
         width:100%;
@@ -353,6 +367,11 @@ i:hover{
     .section3 img{
         height: 250px;
     }
+    .section3 p{
+        font-size: 20px;
+        font-family: 'Open Sans','Sans Serif';
+        font-weight: 400;
+    } 
     #section3_{
         display:flex;
         flex-direction: column-reverse;
@@ -500,7 +519,7 @@ input{
     border-radius: 6px;
     border:1px solid lemonchiffon;
     outline: none;
-    background-color: lemonchiffon;
+    background-color: white;
 }
 footer button{
     text-align: end;
